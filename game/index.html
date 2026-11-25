@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sizzle &amp; Serve — a tiny burger diner</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1d12; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #f3e2c2; }
+  p { color: #e8d3ac; font: 14px system-ui, sans-serif; text-align: center; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p>Sizzle &amp; Serve — click the kitchen or use keys 1–6, G, C, Space. No network, no assets: everything is drawn in code.</p>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
